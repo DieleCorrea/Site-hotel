@@ -1,5 +1,5 @@
 # Site-hotel
-Aprendendo os principios de HTML, CSS e JAVASCRIPT criei esse site. Esse site faz parte da disciplina de JavaScrip do meu curso profissionalizante de programação web pelo IFSUL!
+Aprendendo os principios de HTML, CSS e JAVASCRIPT criei esse site. Esse projeto faz parte da disciplina de JavaScrip do meu curso profissionalizante de programação web pelo IFSUL!
 
 # Objetivo geral:
 Conhecer os conceitos básicos das linguagens HTML, CSS, HTML5, CSS3 e Javascript.
