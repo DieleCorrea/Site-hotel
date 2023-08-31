@@ -24,3 +24,12 @@ header{
    margin-top: 0;
    color: #8f3737;
 }
+
+
+footer {
+    background-color: #5c1d1d;
+    color: rgba(245, 245, 245, 0.658);
+    padding: 20px 20px;
+    text-align: center;
+    margin-left: 0;
+}
