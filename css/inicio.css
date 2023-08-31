@@ -11,6 +11,9 @@ header{
     display: flex;
     justify-content: center;
 }
+header legend{
+    margin: 10px;
+}
 .room {
     background-color: #ad72af;
     border: 1px solid #8f3737;
