@@ -19,3 +19,8 @@ header{
     text-align: center;
     margin-top: 260px;
 }
+
+.room h1{
+   margin-top: 0;
+   color: #8f3737;
+}
