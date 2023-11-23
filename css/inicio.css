@@ -1,3 +1,11 @@
+/*o asteristico representa todo o conteudo, no caso aqui estou zerando a margem e o padding
+é importante de resetar o CSS antes de estilizar qualquer elemento de uma página, 
+pois essa parte do código limpa todos os padrões dos navegadores. Para resetar os padrões dos navegadores de forma simples utilizamos as propriedades margin, que define a área de margem nos quatro lados do elemento (cima, direita, baixo, esquerda), e padding, que define a área de preenchimento interna nos mesmos quatro lados do elemento, ambas com valor igual à 0.*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color:#E7CBCB ;
     color: #643843 ;
