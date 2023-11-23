@@ -9,6 +9,7 @@ pois essa parte do código limpa todos os padrões dos navegadores. Para resetar
 body {
     background-color:#E7CBCB ;
     color: #643843 ;
+    box-sizing: border-box;/*para que sempre esteja dentro do elemento pai*/
 }
 
 .destaqueParagrafo{
