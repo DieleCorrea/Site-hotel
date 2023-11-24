@@ -6,12 +6,57 @@ pois essa parte do código limpa todos os padrões dos navegadores. Para resetar
     padding: 0;
 }
 
+.apresentacao{
+    text-align: center;
+}
+/*Estilizar o menu*/
+.OpcoesMenu{
+    background-color: #643843;
+    color: #E7CBCB;
+}
+.a{
+     text-align: center;  
+     margin: 2%;  
+}
+.b{
+    text-align: center; 
+    margin: 2%;  
+    align-content: space-around;
+}
+
+/*Estilizar corpo*/
 body {
     background-color:#E7CBCB ;
     color: #643843 ;
     box-sizing: border-box;/*para que sempre esteja dentro do elemento pai*/
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
 }
+
+
+.quemSomos{
+    margin: 3%;
+}
+.quemSomos h2{
+    text-align: center;
+}
+.imgHotelInicio{
+    width: 100%; /* Faz a imagem ocupar 100% da largura da div */
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 .destaqueParagrafo{
     color: #5F6F52 ;
 }
+
