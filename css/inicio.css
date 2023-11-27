@@ -11,18 +11,33 @@ pois essa parte do código limpa todos os padrões dos navegadores. Para resetar
 }
 /*Estilizar o menu*/
 .OpcoesMenu{
+    width: 100%;
+    display: flex;
     background-color: #643843;
     color: #E7CBCB;
+    justify-content: center;
 }
 .a{
-     text-align: center;  
-     margin: 2%;  
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+    margin: 2%;
 }
-.b{
+a button{
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    background-color: #ede6e6; /* Exemplo de cor azul */
+    font-size: 16px; /* Exemplo de tamanho de fonte em pixels */
+    border: 1px solid #ccc; /* Exemplo de borda com 1 pixel de largura e cor cinza */
+
+
+}
+/**.b{
+    justify-content: space-between;
     text-align: center; 
     margin: 2%;  
     align-content: space-around;
-}
+}**/
 
 /*Estilizar corpo*/
 body {
