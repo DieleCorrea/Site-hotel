@@ -59,8 +59,12 @@ body {
     text-align: center;
 }
 .imgHotelInicio{
-    width: 100%; /* Faz a imagem ocupar 100% da largura da div */
+    display: flex;
+    width: 82%;
     height: auto;
+    border-radius: 5%;
+    overflow: hidden;/* Garante que a imagem fique contida dentro do contorno arredondado */
+
 }
 
 
