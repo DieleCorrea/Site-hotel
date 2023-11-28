@@ -59,14 +59,17 @@ body {
     text-align: center;
 }
 .imgHotelInicio{
-    display: flex;
+    text-align: center;
+
+}
+.imagemHotel{
+    display: inline-block;
     width: 82%;
     height: auto;
     border-radius: 5%;
     overflow: hidden;/* Garante que a imagem fique contida dentro do contorno arredondado */
 
 }
-
 
 
 
