@@ -9,20 +9,30 @@ pois essa parte do código limpa todos os padrões dos navegadores. Para resetar
 .apresentacao{
     text-align: center;
 }
+header{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /*Estilizar o menu*/
 .OpcoesMenu{
+
     width: 100%;
+    max-width: 50rem;
     display: flex;
     background-color: #643843;
     color: #E7CBCB;
     justify-content: center;
+    flex-direction: column;
 }
 .a{
     display: flex;
-    justify-content: space-between;
     width: 90%;
-    text-align: center;
+    /* text-align: justify; */
     margin: 2%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 a button{
     cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
@@ -30,15 +40,23 @@ a button{
     font-size: 16px; /* Exemplo de tamanho de fonte em pixels */
     border: 1px solid #ccc; /* Exemplo de borda com 1 pixel de largura e cor cinza */
     border-radius: 5px; /* Exemplo de raio de borda de 5 pixels (no caso deixa circular) */
-
-
 }
-/**.b{
-    justify-content: space-between;
-    text-align: center; 
-    margin: 2%;  
-    align-content: space-around;
-}**/
+.b{
+    display: flex;
+    width: 90%;
+    /* text-align: justify; */
+    margin: 2%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+b button{
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    background-color: #ede6e6; /* Exemplo de cor azul */
+    font-size: 16px; /* Exemplo de tamanho de fonte em pixels */
+    border: 1px solid #ccc; /* Exemplo de borda com 1 pixel de largura e cor cinza */
+    border-radius: 5px; /* Exemplo de raio de borda de 5 pixels (no caso deixa circular) */
+}
+
 
 /*Estilizar corpo*/
 body {
@@ -64,11 +82,11 @@ body {
 }
 .imagemHotel{
     display: inline-block;
-    width: 82%;
+   
     height: auto;
     border-radius: 5%;
     overflow: hidden;/* Garante que a imagem fique contida dentro do contorno arredondado */
-
+ 
 }
 
 
